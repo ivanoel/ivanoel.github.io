@@ -1,7 +1,5 @@
 # Portfólio Web de Ivanoel Rodrigo
 
-# Inclusão de JQuery
-
 # Inclusão de Fonts
 
 
