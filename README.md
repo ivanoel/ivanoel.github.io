@@ -2,7 +2,6 @@
 
 # Inclusão de Fonts
 
-
 # Inclusão de Imagens e Videos
 
 # Um Portfólio de cara nova.
