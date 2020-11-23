@@ -435,8 +435,9 @@ header {
         background-color: #000;
         color: #bfbfbf;
         background-image: url(../../images/bg01.jpg);
-        background-size: cover;
+        /* background-image: no-repeat; */
         background-attachment: fixed;
+        background-size: cover;
         background-position: center;
         position: relative;
         

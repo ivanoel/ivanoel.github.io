@@ -54,6 +54,15 @@
 				});
 
 			});
+		
+		// Parallax
+		const parallax  = document.getElementById("parallax");
+
+			window.addEventListener("scroll", function(){
+    		let offset = window.pageYOffset;
+    			parallax.style.backgroundOrigin = offset
+    			* 1 + "px";
+			});
 
 		// Footer.
 			$footer.each( function() {
