@@ -636,8 +636,7 @@
 				-webkit-transition: -webkit-transform 0.2s ease-in-out;
 				-ms-transition: -ms-transform 0.2s ease-in-out;
 				transition: transform 0.2s ease-in-out;
-				-webkit-backface-visibility: hidden;
-				-webkit-transform: translate3D(0, 0, 0);
+				
 			}
 
 			.columns .image:hover img {
@@ -759,7 +758,7 @@
 				-ms-transition: background 1s ease-in-out;
 				transition: background 1s ease-in-out;
 				margin: 0;
-				border-radius: 30px;
+				border-radius: 20px;
 			}
 
 				#header .inner .button.hidden {

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+
+    <!-- Css3 Customizado-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Normalize CSS-->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Compatibilidade de Navegadores Antigos -->
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- inicio conatiner -->
+    <div id="container">
+        <!-- header -->
+        <header id="cabecalho">
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <!-- nav -->
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisas</a></li>
+                    <li><a href="">Acervos</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+            <!-- fim nav -->
+
+        </header>
+        <!-- fim header -->
+
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="images/museu.png" alt="">
+                </section>
+                <section id="postagem">
+
+                    <article id="video">
+                        <h3>Video: conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/LmPVFpbXFwU" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: encontre o museu</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15943.72970126328!2d-44.3007399!3d-2.5289594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccd2fe333e329559!2sMuseu%20Hist%C3%B3rico%20e%20Art%C3%ADstico%20do%20Maranh%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1609802401282!5m2!1spt-BR!2sbr"
+                            width="340" height="170" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Os assutadores insetos</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Carta de Amor de Shakspecker</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Os incriveis</a>
+                            </li>
+
+                            <li>
+                                <a href="#">As mais belas rainhas</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Os quadros lindos</a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de hístorias</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Modi doloremque obcaecati ratione, fugiat velit temporibus nihil
+                            iusto rerum quae veritatis aliquam, unde tempore aliquid expedita quidem nam atque explicabo
+                            asperiores.</p>
+                    </article>
+
+                </section>
+
+            </div>
+
+            <aside>
+                <section id="depoimento">
+                    <img src="images/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" type="text" id="qtd" value="1">
+
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+
+                    <a href="">
+                        <img src="images/imagem1.jpg" height="93" width="93" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="images/imagem2.jpg" height="93" width="93" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="images/imagem3.jpg" height="93" width="93" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="images/imagem4.jpg" height="93" width="93" alt="">
+                    </a>
+                </section>
+            </aside>
+        </div>
+        <footer>
+           <p>&#169 2021 - Todos os direitos reservados.</p> 
+        </footer>
+    </div>
+
+</body>
+
+</html>
