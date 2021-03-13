@@ -1,10 +1,10 @@
 # Portfólio Web de Ivanoel Rodrigo
 
-# Inclusão de Fonts, Imagens e Videos
+## Inclusão de Fonts, Imagens e Videos
 
-# Inclusão de Projetos Antigos e Novos.
+### Inclusão de Projetos Antigos e Novos.
 
-# Always do what you love S2.
+#### Always do what you love S2.
 
 Como sempre, mantive o estilo no mínimo para você enlouquecer e torná-lo seu.
 
