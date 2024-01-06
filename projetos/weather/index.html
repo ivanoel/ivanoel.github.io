@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <title>Previsão do Tempo</title>
+    <meta name="description" content="..." />
+    <meta name="keywords" content="Mini Projeto | Previsão do Tempo" />
+
+    <!-- Descrição 02 -->
+    <meta name="author" content="Ivanoel Rodrigo" />
+    <meta name="DC.identifier" content="http://ivanoel.github.io/" scheme="URL" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Compatibilidade Com navegadores -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>      
+        <![endif]-->
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="pesquisar-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Cidade">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="nao-encontrado">
+            <img src="img/unknown.png">
+            <p>Oops! Inválido localização!</p>
+        </div>
+
+        <div class="clima-box">
+            <img src="">
+            <p class="temperatura"></p>
+            <p class="descricao"></p>
+            <p class="data"></p>
+        </div>
+
+        <div class="detalhes-clima">
+            <div class="umidade">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Umidade</p>
+                </div>
+            </div>
+            <div class="vento">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Vento</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

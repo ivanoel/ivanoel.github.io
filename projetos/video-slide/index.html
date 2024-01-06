@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Video Slide</title>
+    <meta name="description" content="..." />
+    <meta name="keywords" content="Video Slide"/>
+
+    <!-- Descrição 02 -->
+    <meta name="author" content="Ivanoel Rodrigo" />
+    <meta name="DC.identifier" content="http://ivanoel.github.io/" scheme="URL" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+    <!-- CSS  -->
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
+	
+	<!-- Compatibilidade Com navegadores -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>      
+    <![endif]-->
+
+</head>
+<body>
+    <section>
+        <video id="slide" autoplay muted loop>
+            <source src="assets/videos/video04.mp4" type="video/mp4">
+        </video>
+        <ul class="navegar">
+            <li onclick="videoUrl('assets/videos/video04.mp4')"><img src="assets/images/image04.png" alt=""></li>
+            <li onclick="videoUrl('assets/videos/video03.mp4')"><img src="assets/images/image03.png" alt=""></li>
+            <li onclick="videoUrl('assets/videos/video02.mp4')"><img src="assets/images/image02.png" alt=""></li>
+            <li onclick="videoUrl('assets/videos/video01.mp4')"><img src="assets/images/image01.png" alt=""></li>
+        </ul>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
